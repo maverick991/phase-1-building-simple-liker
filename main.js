@@ -4,7 +4,13 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
-
+document.addEventListener("DOMContentLoaded", () => {
+  const input = document.getElementById('button');
+  input.addEventListener('click', function(){
+    alert(FULL_HEART)
+    .modal("hide")
+  })
+} )
 
 
 //------------------------------------------------------------------------------
